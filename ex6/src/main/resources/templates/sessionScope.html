@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>sessionScope</title>
+</head>
+<body>
+
+<a href="/">Home</a>
+<br/>
+<br/>
+
+<a th:if="${message == true}" href="sessionScope/logoff">logoff</a>
+<br/>
+<br/>
+
+<form action="" method="post">
+    Username: <input type="text" name="username" value="user" />
+    <br/><br/>
+    Password: <input type="password" name="password" value="1" />
+    <br/><br/>
+    <button type="submit">Log in</button>
+</form>
+
+<br/>
+<p th:text="${message} +': '+ ${count}"/>
+
+
+
+</body>
+</html>

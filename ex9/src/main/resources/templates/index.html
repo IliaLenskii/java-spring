@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>index.html</title>
+</head>
+<body>
+
+<table border="1" cellpadding="8">
+    <tr>
+        <th>name</th>
+        <th>price</th>
+    </tr>
+    <tr th:each="p: ${purchase}">
+        <td th:text="${p.getProduct()}"></td>
+        <td th:text="${p.getPrice()}"></td>
+    </tr>
+</table>
+
+</body>
+</html>

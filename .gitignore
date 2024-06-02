@@ -542,3 +542,4 @@ nbdist/
 /convertFromBinary.txt
 /lab1/.idea
 /ex9/src/main/resources/mysql-user-pass.properties
+/ex10/src/main/resources/mysql-user-pass.properties

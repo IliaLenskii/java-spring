@@ -541,3 +541,4 @@ nbdist/
 /binary.bin
 /convertFromBinary.txt
 /lab1/.idea
+/ex9/src/main/resources/mysql-user-pass.properties
